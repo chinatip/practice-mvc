@@ -28,6 +28,9 @@ c:\users\cvichian\documents\visual studio 2015\Projects\WebApplication3\WebAppli
 c:\users\cvichian\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\System.Web.Webpages.Razor.xml
 c:\users\cvichian\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\System.Web.Helpers.xml
 c:\users\cvichian\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\System.Web.Mvc.xml
-c:\users\cvichian\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\obj\Debug\WebApplication3.csprojResolveAssemblyReference.cache
 c:\users\cvichian\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\obj\Debug\WebApplication3.dll
 c:\users\cvichian\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\obj\Debug\WebApplication3.pdb
+c:\users\cvichian\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\EntityFramework.dll
+c:\users\cvichian\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\EntityFramework.SqlServer.dll
+c:\users\cvichian\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\EntityFramework.xml
+c:\users\cvichian\documents\visual studio 2015\Projects\WebApplication3\WebApplication3\bin\EntityFramework.SqlServer.xml

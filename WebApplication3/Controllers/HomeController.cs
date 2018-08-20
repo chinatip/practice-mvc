@@ -13,5 +13,10 @@ namespace WebApplication3.Controllers
         {
             return View();
         }
+
+        public string Welcome(string name, string id)
+        {
+            return $"Hello, {name}. Your ID is {id}";
+        }
     }
 }
