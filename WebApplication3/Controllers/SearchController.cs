@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -17,6 +18,12 @@ namespace WebApplication3.Controllers
         // GET: Search
         public ActionResult Index()
         {
+            return View(db.Searchs.ToList());
+        }
+
+        public ActionResult Result(string str)
+        {
+            Debug.WriteLine("search word: " + str);
             return View(db.Searchs.ToList());
         }
 

@@ -18,5 +18,10 @@ namespace WebApplication3.Controllers
         {
             return $"Hello, {name}. Your ID is {id}";
         }
+
+        public string SearchResult(string word)
+        {
+            return $"This word is from search: {word}";
+        }
     }
 }

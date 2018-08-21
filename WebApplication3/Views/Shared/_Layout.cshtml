@@ -36,5 +36,14 @@
 
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
+    <script>
+        const search = window.location.search.split('word=')
+        document.getElementById("searchInput").value = search.length > 0 ? search[1] : '';
+
+        function goSearch() {
+            const word = document.getElementById("txtSearch").value
+            window.open('/Search/Result?word=' + word);
+        }
+    </script>
 </body>
 </html>

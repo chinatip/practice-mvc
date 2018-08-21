@@ -3,12 +3,15 @@
     ViewBag.Title = "Index";
 }
 
-<div class="jumbotron">
+
+<div class="jumbotron" style="margin-top:20px;">
     <h2>Index</h2>
     <br />
     <br />
     <h3>Search for hotels</h3>
-    <input type="text" class="form-control" placeholder="hotel name"/>
-    <button class="btn">Search</button>
+    <div style="padding: 20px; display: flex; background: rgba(0, 0, 0, 0.2); border-radius: 6px;">
+        <input id="txtSearch" type="text" class="form-control" placeholder="hotel name"/>
+        <button onClick="goSearch()"class="btn" style="margin-left: 10px;">Search</button>
+    </div>
 </div>
 

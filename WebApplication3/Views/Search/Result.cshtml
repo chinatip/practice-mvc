@@ -1,0 +1,31 @@
+﻿@model IEnumerable<WebApplication3.Models.Search>
+
+@{
+    ViewBag.Title = "Result";
+}
+
+<h2>Index</h2>
+
+<div style="background: grey; padding: 20px;">
+    <p>Search word</p>
+    <input id="searchInput" />
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.word)
+            </th>
+            <th></th>
+        </tr>
+
+            <p>Search history</p>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.word)
+                    </td>
+                </tr>
+            }
+
+    </table>
+    </div>
